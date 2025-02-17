@@ -1,0 +1,41 @@
+.yearly-calendar {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .month {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 8px;
+    background: #f9f9f9;
+  }
+  
+  h3 {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .days-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+  }
+  
+  .day-header {
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .day {
+    text-align: center;
+    padding: 8px;
+    border-radius: 4px;
+    background: #fff;
+  }
+  
+  .today {
+    background: #ffcc00;
+    font-weight: bold;
+  }
